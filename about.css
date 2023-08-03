@@ -52,6 +52,7 @@ header .nav-ban ul li a {
   margin-left: 20vw;
   flex: 1;
   cursor: pointer;
+  display: none;
 }
 
 header .nav-int ul {
@@ -104,11 +105,11 @@ header .nav-int ul li a:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 2vh;
-  background-image: url(img/Background2.png);
+  background-image: url(img/background2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 0;
-  background-position-y: 10vh;
+  background-position-y: 0;
   background-color: #e6e6ea;
 }
 
@@ -412,6 +413,7 @@ header .nav-int ul li a:hover {
     left: 23vw;
     z-index: 100;
     width: 20%;
+    display: block;
   }
 
   .nav-int.active .ni-list {
@@ -450,6 +452,7 @@ header .nav-int ul li a:hover {
   header .nav-int img {
     margin-left: 10vw;
     width: 10%;
+    display: block;
   }
 
   .nav-ban {
@@ -585,7 +588,7 @@ header .nav-int ul li a:hover {
   .past-conference div:nth-child(2) {
     flex-direction: row;
     justify-content: center;
-    gap: 2vw;
+    gap: 1vw;
   }
 
   .cont-conferenceImages {
@@ -598,5 +601,6 @@ header .nav-int ul li a:hover {
 
   .cont-conferenceImages span {
     width: 20vw;
+    margin-top: 0;
   }
 }

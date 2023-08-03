@@ -66,6 +66,7 @@ header .nav-int ul {
   margin-left: 20vw;
   flex: 1;
   cursor: pointer;
+  display: none;
 }
 
 header .nav-int ul li {
@@ -538,6 +539,7 @@ body button {
     left: 23vw;
     z-index: 100;
     width: 20%;
+    display: block;
   }
 
   .nav-int.active .ni-list {
@@ -572,8 +574,9 @@ body button {
   }
 
   .nav-int img {
-    margin-left: 10vw;
+    margin-left: 12vw;
     width: 15%;
+    display: block;
   }
 
   header .nav-int ul {
@@ -606,7 +609,7 @@ body button {
   }
 
   .home .cont-homeTitle h1 {
-    font-size: 57px;
+    font-size: 45px;
   }
 
   .cont-mobileParagraph {
@@ -684,7 +687,7 @@ body button {
   }
 
   .cont-lecture {
-    width: 14vw;
+    width: 15vw;
     flex-direction: column;
     margin-left: 0.3vw;
     height: 30vh;
@@ -709,12 +712,12 @@ body button {
   }
 
   .cont-programlecture {
-    width: 95%;
+    width: 97%;
     margin-left: 5%;
   }
 
   .cont-btn {
-    margin-top: 5vh;
+    margin-top: 7vh;
     margin-bottom: 8vh;
   }
 
@@ -796,6 +799,14 @@ body button {
     background-position-x: 4vw;
   }
 
+  .speaker:nth-child(even) .cont-image {
+    margin-left: -2.5vw;
+  }
+
+  .speaker:nth-child(odd) .cont-image {
+    margin-left: 2.5vw;
+  }
+
   .image {
     width: 5.5vw;
     height: 6.72vw;
@@ -812,7 +823,7 @@ body button {
 
   .speaker:nth-child(3) img {
     width: 10vw;
-    height: 10vw;
+    height: 12.22vw;
   }
 
   /* Third Image */
@@ -838,35 +849,50 @@ body button {
 
   .speaker:last-child img {
     width: 10vw;
-    height: 11vw;
+    height: 13.36vw;
   }
 
   .cont-position {
-    margin-left: 5vw;
+    margin-left: 3vw;
     margin-top: -5vh;
   }
 
   .speaker:nth-child(3) .cont-position {
-    margin-left: 5vw;
+    margin-left: 8vw;
     width: 25vw;
     margin-top: -5vh;
   }
 
   .speaker:nth-child(5) .cont-position {
     width: 18vw;
+    margin-left: 8vw;
   }
 
   .speaker:last-child .cont-position {
     width: 26vw;
+    margin-left: 8vw;
   }
 
   .cont-name {
-    margin-left: 5vw;
+    margin-left: 3vw;
+  }
+
+  .speaker:nth-child(odd) .cont-name {
+    margin-left: 8vw;
   }
 
   .contDivision {
     margin-top: -6.5vh;
-    margin-left: -4vw;
+    margin-left: 0vw;
+    display: block;
+  }
+
+  .contDivision hr {
+    margin-left: 3vw;
+  }
+
+  .speaker:nth-child(odd) .contDivision {
+    margin-left: 5vw;
   }
 
   .speaker:nth-child(even) .contDivision {
@@ -884,9 +910,13 @@ body button {
   }
 
   .cont-text {
-    width: 90%;
-    margin-left: 5vw;
+    width: 100%;
+    margin-left: 3vw;
     margin-top: -10vh;
+  }
+
+  .speaker:nth-child(odd) .cont-text {
+    margin-left: 8vw;
   }
 
   .speaker:nth-child(even) .cont-text {
