@@ -306,8 +306,12 @@ header .nav-int ul li a:hover {
 }
 
 body button {
-  width: 94vw;
-  height: 5vh;
+  width: 84vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
