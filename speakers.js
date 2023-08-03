@@ -12,7 +12,7 @@ const personalities = [
     image: 'img/speaker2.jpeg',
     name: 'Miguel Angel Indurain',
     position: 'Profesor Emérito en Grado a Quien Le Importa Universidad de Salamanca',
-    experience: 'One of the most-cited authors on the economics of information',
+    experience: 'One of the most-cited and known authors on the economics of information',
   },
   {
     id: '3',
@@ -27,7 +27,7 @@ const personalities = [
     image: 'img/speaker4.jpeg',
     name: 'Priscilla Johnson',
     position: 'The Sloan School of Management MIT',
-    experience: 'One of the most-cited authors on the economics of information',
+    experience: 'One of the most-cited and known authors on the economics of information',
   },
 
   {
@@ -44,7 +44,7 @@ const personalities = [
     image: 'img/speaker6.jpeg',
     name: 'Juan Carlos Fitzgerald',
     position: 'Fred and Eleanor Glimp Professor of Economics Harvard University',
-    experience: 'One of the most-cited authors on the economics of information',
+    experience: 'One of the most-cited and known authors on the economics of information',
   },
 ];
 
