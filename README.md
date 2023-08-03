@@ -1,5 +1,5 @@
 a name="readme-top"></a>
-# Summit
+# Latin America Business Summit in Brazil 2023
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -25,7 +25,7 @@ a name="readme-top"></a>
 
 # 📖 [Summit] <a name="about-project"></a>
 
-Business Summit is the official web-page for 2023 Latin America Business Summit taking place in Brasilia. The logo was designed by Juan Gurdian.  
+This is the official web-page for the 2023 Latin America Business Summit taking place in Brasilia. It is an exciting event that will serve as a guideline for business man in the continent. Amazing and well documented speakers will be on stage talking about the challenges and opportunities we are facing.  The project presents all the information you may need to know and it is designed to enhance the user's experience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,7 +33,7 @@ VS Code editor
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML, CSS and JAVA SCRIPT
+HTML, CSS and JAVASCRIPT
 
 ### Key Features <a name="key-features"></a>
 
