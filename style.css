@@ -713,7 +713,10 @@ body button {
 
   .cont-programlecture {
     width: 97%;
-    margin-left: 5%;
+    margin-left: 1.25%;
+    display: flex;
+    justify-content:center;
+    text-align: center;
   }
 
   .cont-btn {
