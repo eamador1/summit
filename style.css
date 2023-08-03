@@ -62,7 +62,7 @@ header .nav-int ul {
 }
 
 .nav-int img {
-  width: 20%;
+  width: 50%;
   margin-left: 20vw;
   flex: 1;
   cursor: pointer;
@@ -537,6 +537,7 @@ body button {
     top: 13vh;
     left: 23vw;
     z-index: 100;
+    width: 20%;
   }
 
   .nav-int.active .ni-list {

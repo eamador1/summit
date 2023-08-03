@@ -47,8 +47,8 @@ header .nav-ban ul li a {
   padding-right: 15vw;
 }
 
-.nav-int img {
-  width: 20%;
+.logo {
+  width: 50%;
   margin-left: 20vw;
   flex: 1;
   cursor: pointer;
@@ -411,6 +411,7 @@ header .nav-int ul li a:hover {
     top: 13vh;
     left: 23vw;
     z-index: 100;
+    width: 20%;
   }
 
   .nav-int.active .ni-list {
