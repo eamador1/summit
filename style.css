@@ -656,7 +656,7 @@ body button {
     border-color: rgb(248, 242, 242);
     width: 2vw;
     height: 0.25vh;
-    margin-left: 9vw;
+    margin-left: 3vw;
   }
 
   .cont-titlepartner hr {
@@ -883,12 +883,8 @@ body button {
 
   .contDivision {
     margin-top: -6.5vh;
-    margin-left: 0vw;
+    margin-left: 0;
     display: block;
-  }
-
-  .contDivision hr {
-    margin-left: 3vw;
   }
 
   .speaker:nth-child(odd) .contDivision {
