@@ -25,6 +25,12 @@ header {
   background-color: #3c3a39;
 }
 
+header .nav-ban ul {
+  display: flex;
+  gap: 2vw;
+  cursor: pointer;
+}
+
 header .nav-ban ul li {
   list-style: none;
 }
@@ -47,6 +53,7 @@ header .nav-ban ul li a {
 }
 
 header .nav-int ul {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 60vw;
@@ -61,15 +68,6 @@ header .nav-int ul {
   cursor: pointer;
 }
 
-header .nav-int ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 60vw;
-  flex: 1;
-  visibility: hidden;
-}
-
 header .nav-int ul li {
   list-style: none;
 }
@@ -81,7 +79,7 @@ header .nav-int ul li a {
 }
 
 header .nav-int ul li a:hover {
-  color: #c66866; 
+  color: #c66866;
 }
 
 .a-ni-item6 {
@@ -178,18 +176,18 @@ header .nav-int ul li a:hover {
   margin-bottom: 5vh;
 }
 
-.cont-dateLocation p:first-child {
-  color: #4c4b4b;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 4vw;
-}
-
 .cont-programlecture p {
   color: #fff;
   width: 90%;
   margin-left: 2vw;
   margin-right: 0;
+}
+
+.cont-dateLocation p:first-child {
+  color: #4c4b4b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 4vw;
 }
 
 .cont-dateLocation p:last-child {
@@ -217,6 +215,20 @@ header .nav-int ul li a:hover {
   justify-content: center;
   margin-top: 1vh;
   margin-bottom: 3vh;
+}
+
+.contDivision hr {
+  background-color: rgb(248, 242, 242);
+  border-color: rgb(248, 242, 242);
+  width: 5vw;
+}
+
+.speakerTitle hr {
+  width: 4vw;
+  background-color: #8f3a33;
+  border-color: #8f3a33;
+  margin-top: 1vh;
+  margin-left: 15.5vw;
 }
 
 .main-program .cont-dline hr {
@@ -259,6 +271,19 @@ header .nav-int ul li a:hover {
   color: #ec4b32;
   font-size: 13px;
   margin-right: 7vw;
+}
+
+.cont-titleSpeakers h6 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 3vh;
+}
+
+.speakerTitle h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .cont-lecture:nth-child(3) .cont-lectureTitle h6,
@@ -319,30 +344,9 @@ body button {
   padding-top: 0;
 }
 
-.speakerTitle h6 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.speakerTitle hr {
-  width: 4vw;
-  background-color: #8f3a33;
-  border-color: #8f3a33;
-  margin-top: 1vh;
-  margin-left: 15.5vw;
-}
-
 .cont-titleSpeakers {
   display: flex;
   justify-content: center;
-}
-
-.cont-titleSpeakers h6 {
-  font-size: 24px;
-  font-weight: 400;
-  padding-top: 3vh;
 }
 
 .cont-titleSpeakers div:first-child {
@@ -434,6 +438,7 @@ body button {
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
+  flex: 1;
 }
 
 .cont-position {
@@ -443,8 +448,16 @@ body button {
   margin-top: 0;
 }
 
+.speaker:nth-child(3) .cont-position {
+  width: 80%;
+}
+
 .speaker:nth-child(5) .cont-position {
-  width: 35vw;
+  width: 55%;
+}
+
+.speaker:nth-child(7) .cont-position {
+  width: 80%;
 }
 
 .position {
@@ -452,6 +465,7 @@ body button {
   font-size: 10px;
   line-height: 20px;
   padding-bottom: 0;
+  flex: 1;
 }
 
 .contDivision {
@@ -460,16 +474,11 @@ body button {
   display: flex;
   margin-left: 0;
   padding-bottom: 3vh;
+  width: 10%;
 }
 
 .speaker:nth-child(3) .contDivision {
   padding-bottom: 1vh;
-}
-
-.contDivision hr {
-  background-color: rgb(248, 242, 242);
-  border-color: rgb(248, 242, 242);
-  width: 5vw;
 }
 
 .cont-text {
@@ -481,6 +490,7 @@ body button {
 .text {
   font-size: 10px;
   line-height: 16px;
+  flex: 1;
 }
 
 @media (max-width: 768px) {
@@ -494,6 +504,7 @@ body button {
   .cont-partners {
     display: none;
   }
+
   .hamburger.active .bar:nth-child(1) {
     margin-top: 10px;
     margin-left: 80vw;
@@ -522,10 +533,10 @@ body button {
   }
 
   .nav-int.active .logo {
-   position: absolute;
-   top: 13vh;
-   left: 23vw;
-   z-index: 100;  
+    position: absolute;
+    top: 13vh;
+    left: 23vw;
+    z-index: 100;
   }
 
   .nav-int.active .ni-list {
@@ -538,15 +549,21 @@ body button {
     visibility: visible;
     flex-direction: column;
     justify-content: flex-start;
-   
   }
 }
 
 @media (min-width: 768px) {
   .hamburger,
-  .cont-btn button,
-  body button {
+  body button,
+  .cont-btn button {
     display: none;
+  }
+
+  .cont-btn a {
+    visibility: visible;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   header .nav-int ul li a:nth-last-child() {
@@ -609,6 +626,10 @@ body button {
     margin-left: 12%;
   }
 
+  .cont-programlecture p {
+    margin-left: 0;
+  }
+
   .cont-dateLocation p:first-child {
     margin-left: 0;
     font-size: 25px;
@@ -624,6 +645,29 @@ body button {
   .main-program {
     display: flex;
     flex-direction: column;
+  }
+
+  .contDivision hr {
+    background-color: rgb(248, 242, 242);
+    border-color: rgb(248, 242, 242);
+    width: 2vw;
+    height: 0.25vh;
+    margin-left: 9vw;
+  }
+
+  .cont-titlepartner hr {
+    background-color: #8f3a33;
+    border-color: #8f3a33;
+    width: 3vw;
+    margin-left: 48.5vw;
+  }
+
+  .speakerTitle hr {
+    width: 4vw;
+    background-color: #8f3a33;
+    border-color: #8f3a33;
+    margin-top: 1vh;
+    margin-left: 7.5vw;
   }
 
   .main-program .cont-dline hr {
@@ -668,20 +712,9 @@ body button {
     margin-left: 5%;
   }
 
-  .cont-programlecture p {
-    margin-left: 0;
-  }
-
   .cont-btn {
     margin-top: 5vh;
     margin-bottom: 8vh;
-  }
-
-  .cont-btn a {
-    visibility: visible;
-    color: white;
-    text-decoration: underline;
-    cursor: pointer;
   }
 
   .cont-titleSpeakers h6 {
@@ -707,14 +740,6 @@ body button {
     font-size: 28px;
     font-weight: 400;
     padding-top: 0;
-  }
-
-  .speakerTitle hr {
-    width: 4vw;
-    background-color: #8f3a33;
-    border-color: #8f3a33;
-    margin-top: 1vh;
-    margin-left: 7.5vw;
   }
 
   .speaker:nth-child(2) {
@@ -815,6 +840,11 @@ body button {
     height: 11vw;
   }
 
+  .cont-position {
+    margin-left: 5vw;
+    margin-top: -5vh;
+  }
+
   .speaker:nth-child(3) .cont-position {
     margin-left: 5vw;
     width: 25vw;
@@ -831,11 +861,6 @@ body button {
 
   .cont-name {
     margin-left: 5vw;
-  }
-
-  .cont-position {
-    margin-left: 5vw;
-    margin-top: -5vh;
   }
 
   .contDivision {
@@ -855,14 +880,6 @@ body button {
   .position {
     font-size: 16px;
     line-height: 20px;
-  }
-
-  .contDivision hr {
-    background-color: rgb(248, 242, 242);
-    border-color: rgb(248, 242, 242);
-    width: 2vw;
-    height: 0.25vh;
-    margin-left: 9vw;
   }
 
   .cont-text {
@@ -897,13 +914,6 @@ body button {
     color: #959597;
     padding-top: 3vh;
     margin-left: 46vw;
-  }
-
-  .cont-titlepartner hr {
-    background-color: #8f3a33;
-    border-color: #8f3a33;
-    width: 3vw;
-    margin-left: 48.5vw;
   }
 
   .cont-imgpartners3 {
