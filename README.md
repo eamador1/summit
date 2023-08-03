@@ -25,7 +25,7 @@ a name="readme-top"></a>
 
 # 📖 [Summit] <a name="about-project"></a>
 
-This is the official web-page for the 2023 Latin America Business Summit taking place in Brasilia. It is an exciting event that will serve as a guideline for business man in the continent. Amazing and well documented speakers will be on stage talking about the challenges and opportunities we are facing.  The project presents all the information you may need to know and it is designed to enhance the user's experience.
+This is the official web-page for the 2023 Latin America Business Summit taking place in Brasilia. It is an exciting event that will serve as a guideline for business man in the continent. Amazing and well documented speakers will be on stage talking about the challenges and opportunities we are facing.  The project presents all the information you may need to know about this event and it is designed to enhance the user's experience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
