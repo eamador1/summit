@@ -137,10 +137,11 @@ header .nav-int ul li a:hover {
   text-align: center;
   color: #f3482a;
   padding-bottom: 6vh;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 30px;
   font-weight: 900;
-  width: 95%;
+  margin-left: 5%;
+  width: 90%;
 }
 
 .cont-aboutTitle div hr {
@@ -154,6 +155,7 @@ header .nav-int ul li a:hover {
   padding-top: 3vh;
   padding-bottom: 3vh;
   background-color: #fff;
+  width: 90%;
 }
 
 .cont-mobileParagraph p {
