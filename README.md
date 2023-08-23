@@ -47,7 +47,7 @@ HTML, CSS and JAVASCRIPT
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- https://eamador1.github.io/portfolio/
+ https://eamador1-summit.netlify.app/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
